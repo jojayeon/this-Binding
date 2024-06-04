@@ -28,8 +28,12 @@ let test = new WorkTwo(1,2);
 // let test2 = new WorkTwo("w","c");
 // let test3 = new WorkTwo(1,"c");
 console.log(test);
+console.dir(test);
 // console.log(test._a + test._b);
 console.log(test.add());
 
 // console.log(test2);
 // console.log(test3);
+
+
+console.log(test instanceof WorkTwo)
